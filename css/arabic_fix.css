@@ -1,0 +1,288 @@
+/* CSS Document */
+body.arabic 
+{
+	text-align:right;
+	font-family: 'Droid Arabic Kufi', serif !important;
+	
+}
+.arabic_font { font-family: 'Droid Arabic Kufi', serif;}
+body.arabic .float_left { float:right;}
+body.arabic .float_right { float:left;}
+
+body.arabic .text_align_left { text-align:right;}
+body.arabic .text_align_right { text-align:left;}
+
+body.arabic p { line-height:19px; direction: rtl;}
+
+body.arabic select { font-family: 'Droid Arabic Kufi', serif;}
+body.arabic h4 { font-family: 'Droid Arabic Kufi', serif;}
+
+body.arabic .margin_left_5 { margin-right:5px;}
+body.arabic .margin_left_10 { margin-right:10px;}
+body.arabic .margin_left_15 { margin-right:15px;}
+
+body.arabic .margin_right_5 { margin-left:5px;}
+body.arabic .margin_right_10 { margin-left:10px;}
+body.arabic .margin_right_15 { margin-left:15px;}
+
+body.arabic .list_small_titleonly,
+body.arabic .list_section_title_image_article,
+body.arabic .list_small_withimage
+{
+	direction:rtl;
+}
+body.arabic .direction
+{
+	direction:rtl;
+}
+
+body.arabic h3
+{
+	direction:rtl;
+	white-space:normal;
+}
+body.arabic span
+{
+	direction:rtl;
+	white-space:normal;
+}
+body.arabic h5
+{
+	direction:rtl;
+	white-space:normal;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+	line-height: 16px;
+}
+
+body.arabic #mainheader_wrapper #logo{	margin-right: -25px;}
+body.arabic #mainheader_wrapper #profile_wrapper .profile_info ul { margin-top : 0px}
+body.arabic #mainheader_wrapper #profile_wrapper .profile_info ul li { padding :0px 3px }
+
+body.arabic input, body.arabic textarea { direction:rtl;}
+body.arabic input[type=button],body.arabic input[type=submit] { text-align:center;}
+
+body.arabic #upload_recipe_table,body.arabic #ask_an_expert_table_form { direction:rtl;}
+
+body.arabic ul.selectboxit-list{text-align: right;}
+
+body.arabic .desc_wrapper
+{
+	position: relative;
+	bottom: 50px;
+	width: 100%;
+}
+
+body.arabic div.triangle_shape 
+{
+	width: 0;
+	height: 0;
+	border-bottom: 21px solid transparent;
+	border-top: 21px solid transparent;
+	border-left: 20px solid #FFFFFF;
+	left: 0px;
+	border-right: 50px solid transparent;
+	position: absolute;
+	bottom: 0px;
+	top: -1px;
+}
+body.arabic div.triangle_shape_term 
+{
+	width: 0;
+	height: 0;
+	border-bottom: 21px solid transparent;
+	border-top: 21px solid transparent;
+	border-left: 20px solid rgba(255, 255, 255, 0.87);
+	left: 0px;
+	border-right: 50px solid transparent;
+	position: absolute;
+	bottom: 0px;
+	top: -1px;
+}
+body.arabic a.oblong
+{
+	background-color: #ccc;
+	padding: 5px;
+	position: relative;
+	padding-left: 28px;
+	line-height: 30px;
+}
+
+body.arabic .table_dir
+{
+	position: relative;
+	top: 15px;
+	left: 350px;
+}
+
+body.arabic .skew_right
+{
+	width: 100%;
+    height: 30px;
+	-webkit-transform: skew(-35deg);
+    -moz-transform: skew(-35deg);
+	-o-transform: skew(-35deg);
+	margin: 0 -11px;
+}
+
+body.arabic .skew_left
+{
+	width: 100%;
+	height: 30px;
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	-o-transform: skew(-35deg);
+	margin: 0 11px;
+}
+body.arabic .skew_left h3
+{
+	-webkit-transform: skew(35deg);
+	-moz-transform: skew(35deg);
+	-o-transform: skew(35deg);
+	text-indent:10px;
+	font-size:14px;
+}
+
+body.arabic .skew_right h3
+{
+	-webkit-transform: skew(35deg);
+	-moz-transform: skew(35deg);
+	-o-transform: skew(35deg);	
+}
+
+body.arabic .triangleboxshadow
+{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 20px 10px;
+	border-color: transparent transparent #ffffff transparent;
+	position:relative;
+	left:-37px;
+	bottom:-2px;
+}
+body.arabic .close_ballon_hover
+{
+	position: absolute;
+	top: 1px;
+	left: 0;
+	width: 15px !important;
+	text-align: right;
+	color: #999 !important;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+}
+
+body.arabic .dir {direction:rtl;}
+
+/*contact us*/  
+			
+body.arabic .innerwords
+{
+	font-size:20px;
+	white-space:normal;
+	color:#575757;
+}			
+body.arabic .margin_last{margin-left:-7px;}			
+body.arabic .container_img{ width:400px; position:absolute; top: 500px; left: 20px; }
+	
+body.arabic .minilinks{font-size:13px;line-height:12px;color:#000;text-align: left; width:215px;margin-bottom:11px;}
+
+body.arabic .fbcontainer
+{
+	margin-right: 8px;
+	padding-top: 40px;
+}
+body.arabic .fbcontainer p {margin-right: 49px;}
+body.arabic .fbimgcontainer{float:left;width:70px;margin-top:46px;margin-left:6px;}
+	
+body.arabic .emailimgcontainer{float:left;margin-top:59px; margin-left:33px; margin-right: 0px;}
+body.arabic .emailcontainer p
+{
+	padding-right:20px;
+	color:#009;
+	padding:0;
+	font-size:16px;
+	text-align:center;
+	white-space:normal;
+	margin-right:55px;
+}
+
+body.arabic .emailcontainer
+{
+	margin-right: 0px;
+	padding-top: 40px;
+}
+body.arabic .emailcontainer_p{color: #000;}
+
+body.arabic .contactusimgcontainer{float:left;margin-top:49px;margin-left:46px; margin-right: 0px;}
+body.arabic .contactuscontainer{float:right;width:282px;margin-top:27px}
+body.arabic .hotlinedesc{text-align:center;font-size:19px;line-height:20px; width:210px;}
+body.arabic .lastdescription{color: #000;white-space: normal;font-size:10px;line-height:14px; width:190px;}
+body.arabic .question{font-size:12px;color:#666;white-space:normal;margin-right:35px;line-height: 13px; width:200px;}
+body.arabic .child{font-size:12px;color:#000;white-space:normal;margin-right:86px;line-height: 13px;}
+body.arabic  .nurition{font-size:12px;color:#000;white-space:normal;margin-right:86px;line-height: 13px; width:200px;}
+
+/*registeration*/	
+		
+body.arabic .imgcontainer{width:500px}
+body.arabic .img_birthday{margin-top:10px;width:900px;}
+
+body.arabic .welcome_circle{width:200px;height:35px;;position:absolute;top:77px;}
+body.arabic .first_border{border: 1px solid #1b89a7;border-radius:3px;background-color: #1b89a7;width:73px;height:4px;}
+
+body.arabic .circleheader{width: 50px;height: 50px;background: #1b89a7;-moz-border-radius: 70px;-webkit-border-radius: 70px; border-radius: 70px;position: absolute;top: -20px;left:74px;}
+body.arabic .secondstepcircleheader{width: 50px;height: 50px;background: #1b89a7;-moz-border-radius: 70px;-webkit-border-radius: 70px; border-radius: 70px;position: absolute;top: -20px;left: 74px;}
+
+
+body.arabic .second_border{left: 124px;position:absolute;top: 0px;border: 1px solid #FFF;border-radius:3px;background-color:#fff;width:49px;height: 4px;} 
+body.arabic .secondstep_border{left: 122px;position:absolute;top: 0px;border: 1px solid #1b89a7;border-radius:3px;background-color:#1b89a7;width:53px;height: 4px;} 
+
+body.arabic .circleheadersecond{width: 50px;height: 50px;color:#FFFFFF;background: #ffffff;-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius:70px; position:absolute;top:-19px;right:-26px;}
+body.arabic .seconde_step_circle{width: 50px;height: 50px;color:#FFFFFF;background: #1b89a7;-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius:70px; position:absolute;top:-19px;right:-26px;}
+
+body.arabic .last_border{background-color:#FFF;width:700px;height:6px;left:227px;top:1px; position:absolute;}
+
+body.arabic .last_border_reset{background-color:#FFF;width:930px;height:6px;left:227px;top:1px;}
+
+body.arabic .show_the_num{width:70px;height:142px; position:absolute;right:-22px;top:79px;background-image:url("../images/mycorner/constant_img_registeration.png");background-repeat:no-repeat;}
+body.arabic .num_of_page{font-size: 25px;right:2px;color:#FFFFFF;position:absolute;top:49px;right:37px;}
+
+body.arabic .lang_ar{width:100px;}
+body.arabic .lang_eng{width:400px;}
+body.arabic .checkboxsecond{width:20px;height:20px;margin-top:9px;}
+body.arabic .num_of_circle{color:#FFFFFF;font-size:26px;text-align:center;}
+
+body.arabic .articleborder{border:2px solid #FFF;height:36px;position:absolute;left:176px;}
+/*==================================  inner articles image==========================*/
+body.arabic .article_container .image {
+	width:327px;
+	padding:10px;
+	margin-left:15px;
+}
+/*************************************************************/
+
+/* inseason widget*/
+body.arabic .container_with_extended_lists{width:495px; height:410px;}
+
+body.arabic #mainheader_wrapper #profile_wrapper .profile_menu ul li
+{
+	position:relative;
+	margin:0px 12px;
+	font-size:12px;
+	font-weight:bold;
+	color:#253d89;
+}
+
+body.arabic .app{height: 253px;margin-top: 42px;}
+
+body.arabic .most_title{margin-left:115px;}
+
+body.arabic .featured ul.ui-tabs-nav li
+{ 
+	padding-left: 20px;
+	font-size: 12px;
+	color: #666;
+	padding-bottom: 12px;
+}

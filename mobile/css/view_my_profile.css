@@ -1,0 +1,287 @@
+.margin_row{margin-bottom:20px;}
+.div_colum
+{
+	background:white;
+}
+.border1
+{
+	border-radius:10px;
+	border:2px solid #24bbbe;
+}
+.image_profile
+{
+	border:3px dashed black;
+	margin:8px;
+}
+.profile_data
+{
+padding:10px;
+}
+.data{font-size:16px;}
+.edit_icon
+{
+	width: 85%;
+	height: 37px;
+}
+.edit_icon1
+{
+	width: 85%;
+	height: 30px;
+}
+.edit_animation
+{
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 60px;
+	height: 38px;
+}
+.blue_background
+{
+	background-color:#24bbbe;
+}
+.red_background
+{
+	background-color:#ff5418;
+}
+.ornage_background
+{
+	background-color:#f7a748;
+}
+.edit_button
+{
+	cursor:pointer;
+}
+.user_points
+{
+	text-align: right;
+	padding:20px;
+}
+.new
+{
+	height:155px;
+}
+@media (min-width: 1200px)
+{
+	.new
+{
+	height:156px;
+}
+}
+.count_points
+{
+	margin: 19px 0;
+	font-size: 15px;
+	font-weight: bold;
+	text-align:center;
+}
+.count_points_numbers
+
+{
+	width: 84px;
+	height: 90px;
+	text-align: center;
+	line-height: 74px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.hexagon{background: no-repeat;}
+.user_info_data li
+{
+	height:50px;
+	
+}
+.user_info_data
+{
+	background:white;
+	border:2px solid #ff5418;
+	border-radius:10px;
+}
+.member_data
+{
+	width:100%;
+}
+.member
+{
+	direction:rtl;
+	padding:10px;
+	width:80%;	
+}
+.interest
+{
+background:white;
+border:2px solid #f7a748;
+	border-radius:10px;
+	
+
+}
+.prefer
+{
+	padding:10px;
+}
+.circle 
+{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #b7b7b7;
+	background: white;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	display: block;
+}
+.numbers
+{
+	text-align: center;
+	color: #b7b7b7;
+	line-height: 10px;
+	font-size: 23px;
+}
+.best_one
+{
+	padding:5px;
+	text-align: center;
+	color: #fff;
+	line-height: 1px;
+}
+.section_order 
+{
+	height: 40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width:70%;
+	
+}
+.best_cook_color{background: #e82327;}
+.best_status_color{background: #658e15;}
+.best_mother_color{background: #ffc81b;}
+.best_time_color{background: #2fa8c7;}
+.title_wesam
+{
+	border:2px solid red;
+	min-height:200px;
+	border-radius:10px;
+	background:white;
+}
+.how_points
+{
+	width:100%;
+	height:50px;
+	text-align:center;
+}
+.subsection_title
+{
+	margin-top:0px;
+	margin-right:30px;
+	height:37px;
+	width:210px;
+	text-align:center;
+	line-height:2;
+}
+.subsection_title_points
+{
+	
+	margin-top:0px;
+	margin-right:30px;
+	height:37px;
+	width:210px;
+	text-align:center;
+	line-height:2;
+}
+.awsamty
+{
+	float:right;
+	text-align:center;
+	width:100%;
+	padding:5px;
+}
+.points
+{
+	text-align:center;
+	padding:25px;
+}
+@media (min-width: 1200px)
+{
+	.points
+{
+	text-align:center;
+	padding:25px;
+	font-size:20px;
+}
+}
+@media (min-width: 768px)
+{
+	.points
+{
+
+	text-align:center;
+	padding:25px;
+	font-size:17px;
+}
+}
+
+.invite
+{
+	max-width: 200px;
+	margin: 2px 8px;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background-color: #f15555;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border: 1px solid #d9d9d9;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 13px;
+}
+a:hover
+{	text-decoration: none;}
+.img_points
+{
+	width:300px;
+	height:200px;
+	padding:20px;
+}
+.title_points
+{
+border:2px solid blue;
+min-height:400px;
+background:white;
+border-radius:10px;
+}
+@media (min-width: 1200px)
+{
+.title_points
+{
+border:2px solid blue;
+min-height:250px;
+background:white;
+border-radius:10px;
+}
+}
+@media(min-width:768px){
+	.title_points
+{
+border:2px solid blue;
+min-height:240px;
+background:white;
+border-radius:10px;
+}
+	}
+
+.best
+{
+	background:white;
+	border:2px solid #f7a748;
+	border-radius:10px;
+	margin-bottom:15px;
+}
+.margin_li{height:60px; padding:25px;}

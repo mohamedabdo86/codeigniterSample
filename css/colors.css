@@ -1,0 +1,71 @@
+/* CSS Document */
+.best_mom_color { color:#EEBF2D !important;}/*cf9f0b bermawy 20-7-2014*/
+.best_mom_background_color { background:#ffc81b}
+.best_mom_border_color { border-color:#ffc81b}
+.best_mom_borderbottom_color { border-bottom-color:#ffc81b}/*f9b21b*/
+
+.best_cook_color { color:#e82327 !important;}
+.best_cook_background_color { background:#e82327}
+.best_cook_border_color { border-color:#e82327}
+.best_cook_borderbottom_color { border-bottom-color:#e82327}
+
+
+
+.terms_conditions_color { color:#13758e !important;}
+.terms_conditions_background_color { background:#13758e}
+.terms_conditions_border_color { border-color:#13758e}
+.terms_conditions_borderbottom_color { border-bottom-color:#13758e}
+
+.best_me_color { color:#658e15 !important;}
+.best_me_background_color { background:#658e15}
+.best_me_border_color { border-color:#658e15}
+.best_me_borderbottom_color { border-bottom-color:#658e15}/* 9ebe39 */
+.best_me_background_color_featured_title{ background:#ccee98;}
+
+.best_time_color { color:#2fa8c7 !important;}
+.best_time_background_color { background:#2fa8c7 !important;}
+.best_time_border_color { border-color:#2fa8c7}
+.best_time_borderbottom_color { border-bottom-color:#2fa8c7}
+
+.product_color { color:#ffde31 !important;}
+.product_background_color { background-color:#ffde31 !important;}
+.product_border_color { border-color:#ffde31}
+.product_borderbottom_color { border-bottom-color:#ffde31}
+
+.my_corner_color{color:#87206c !important;}
+.my_corner_background_color{background:#87206c !important;}
+.my_corner_border_color{border-color:#87206c;}
+.my_corner_borderbottom_color{ border-bottom-color: #87206c;}
+
+
+.nido_products_color { color:#999 !important;}
+.nido_products_background_color { background:#999}
+.nido_products_border_color { border-color:#999}
+
+.white_borderbottom_color{ border-bottom-color:#fff; border-bottom-color:rgba(255,255,255,0.60); }
+.white_background_color { background:rgba(255, 255, 255, 0.7);}
+.white_background_color_soft { background:#ccc;}
+.my_corner_borderbottom_color{ border-bottom-color: #FFF;}
+.white_color { color:#FFF}
+.black_color { color:#000}
+
+
+.gray_background_color { background:#e1e1e1 !important;}
+.gray_color { color:#b4b4b4}
+.gray_borderbottom_color { border-bottom-color:#e1e1e1;}
+.dark_gray{ color:#555555;}
+.light_gray{ color:#9b9b9b;}
+.dark_gray_background_color { background:#555555;}
+
+.light_blue_background_color { background:#b6c5db; }
+
+.serach_background_color{ background:#fdcb96;}
+
+
+.triangle.best_mom_borderbottom_color:after { background:#f9b21b} 
+.triangle.best_cook_borderbottom_color:after { background:#e82327} 
+.triangle.best_me_borderbottom_color:after { background:#9ebe39} 
+.triangle.best_time_borderbottom_color:after { background:#2fa8c7} 
+.triangle.gray_borderbottom_color:after { background:#a6a6a6} 
+
+

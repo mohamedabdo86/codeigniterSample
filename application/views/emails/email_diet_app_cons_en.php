@@ -1,0 +1,11 @@
+<span id="name"><?php echo $name;?></span>
+<span id="birthday"><?php echo $members_birthdate;?></span>
+<span id="gender"><?php echo $members_gender;?></span>
+<span id="height"><?php echo $members_height;?></span>
+<span id="weight"><?php echo $members_weight;?></span>
+<span id="exercise"><?php echo $members_sport;?></span>
+<span id="health "><?php echo $members_healthy;?></span>
+<span id="mobile"><?php echo $members_mobile;?></span>
+<span id="phone"><?php echo $members_phone;?></span>
+<span id="email"> <?php echo $members_email;?> </span>
+<span id="time_for_call"><?php echo $members_call_time;?></span>

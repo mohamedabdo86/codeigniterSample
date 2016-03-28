@@ -1,0 +1,388 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2014, 10:27:25 AM
+    Author     : Ahmed Makki
+*/
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 10pt;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 7pt;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 7pt;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  display: table;
+}
+.dl-horizontal dd:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after {
+  clear: both;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2014, 2:35:17 PM
+    Author     : Ahmed Makki
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2014, 11:01:44 AM
+    Author     : Ahmed Makki
+*/
+.clear {
+  clear: both;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.text_align_left {
+  text-align: left;
+}
+.text_align_right {
+  text-align: right;
+}
+.text_align_center {
+  text-align: center;
+}
+body.arabic .float_left {
+  float: right;
+}
+body.arabic .float_right {
+  float: left;
+}
+body.arabic .text_align_left {
+  text-align: right;
+}
+body.arabic .text_align_right {
+  text-align: left;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2014, 11:06:28 AM
+    Author     : Ahmed Makki
+*/
+.thin-line {
+  width: 100%;
+  height: 1px;
+}
+.thick-line {
+  width: 100%;
+  height: 5px;
+}
+.v-line {
+  height: 50px;
+  width: 1px;
+  background: #9b9c9e;
+}
+.v-seperator {
+  width: 100%;
+  height: 10pt;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2014, 1:26:38 PM
+    Author     : Ahmed Makki
+*/
+.best-cook .text-color {
+  color: #ed2424;
+}
+.best-cook .background-color {
+  background-color: #ed2424;
+}
+.best-cook .border-color {
+  border-color: #ed2424;
+}
+.best-cook .border-bottom-color {
+  border-bottom-color: #ed2424;
+}
+.best-mom .text-color {
+  color: #fcd43e;
+}
+.best-mom .background-color {
+  background-color: #fcd43e;
+}
+.best-mom .border-color {
+  border-color: #fcd43e;
+}
+.best-mom .border-bottom-color {
+  border-bottom-color: #fcd43e;
+}
+.best-me .text-color {
+  color: #acc847;
+}
+.best-me .background-color {
+  background-color: #acc847;
+}
+.best-me .border-color {
+  border-color: #acc847;
+}
+.best-me .border-bottom-color {
+  border-bottom-color: #acc847;
+}
+.best-time .text-color {
+  color: #18b0e2;
+}
+.best-time .background-color {
+  background-color: #18b0e2;
+}
+.best-time .border-color {
+  border-color: #18b0e2;
+}
+.best-time .border-bottom-color {
+  border-bottom-color: #18b0e2;
+}
+.nestle-products .text-color {
+  color: #9b9c9e;
+}
+.nestle-products .background-color {
+  background-color: #9b9c9e;
+}
+.nestle-products .border-color {
+  border-color: #9b9c9e;
+}
+.nestle-products .border-bottom-color {
+  border-bottom-color: #9b9c9e;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2014, 2:11:40 PM
+    Author     : Ahmed Makki
+*/
+.homepage-fullscreen-widget .image-holder {
+  position: relative;
+}
+.homepage-fullscreen-widget .image-holder .title-container {
+  position: absolute;
+  top: 0px;
+  width: auto;
+  padding: 5pt;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.english .homepage-fullscreen-widget .title-container {
+  left: 5%;
+}
+.arabic .homepage-fullscreen-widget .title-container {
+  right: 5%;
+}
+.homepage-fullscreen-widget .image-holder .title-container h2 {
+  display: inline;
+  border: dashed 1px #FFF;
+  padding: 2pt 5px;
+  margin: 5pt;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+/*.homepage-fullscreen-widget .image-holder .section-icon-wrapper
+{
+    height:110px;
+    width:70px;
+    background-color:#c06;
+    height:150px;
+    width: 75px;    
+    background:green;
+}*/
+.homepage-fullscreen-widget .image-holder .article-title-container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 3pt 6pt;
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.9);
+}
+body.english {
+  text-align: left;
+  direction: ltr;
+}
+body.arabic {
+  text-align: right;
+  direction: rtl;
+}
+#main-header-wrapper {
+  margin-top: 10px;
+  height: auto;
+}
+#main-header-wrapper #logo-container {
+  width: 46%;
+  margin: 0.15%;
+}
+#menu-buttons-container {
+  width: 30%;
+  margin-top: 3%;
+}
+#menu-buttons-container div {
+  margin: 1.15%;
+}
+#nav-buttons-container {
+  width: 23.7%;
+  color: #909090;
+  margin-top: 4%;
+}
+#nav-buttons-container div {
+  margin: 1%;
+}
+#nav-buttons-container #seperator {
+  width: 1pt;
+  height: 4.5%;
+  background: #909090;
+}
+#nav-buttons-container span {
+  color: #909090;
+}
+#search-container {
+  width: 46%;
+  margin: 0.15%;
+}
+#search-container div {
+  margin: 0.5%;
+}
+#search-container .search-button {
+  width: 9%;
+}
+#search-container .search-bar {
+  width: 89%;
+}
+#why-register {
+  width: 30%;
+  margin: 0.15%;
+}
+#social-media-icons {
+  width: 21.7%;
+}
+#social-media-icons a {
+  display: block;
+  margin: 1.5%;
+}
+#footer-products-container {
+  background: #FFF;
+}
+#footer-products-container #footer-title-container {
+  height: 0;
+  width: 141px;
+  margin: 0 auto;
+  border-top: 35px solid #9b9c9e;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#footer-products-container #footer-title-container h2 {
+  position: relative;
+  top: -26px;
+  color: #FFF;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11pt;
+}
+#footer-products-container .pre-line-footer {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+}
+#footer-products-container .copyright-footer {
+  width: 100%;
+  height: 40px;
+  background-color: #9b9c9e;
+  font-size: 8pt;
+  margin: 10px 0px;
+}
+#footer-products-container .copyright-footer p {
+  font-size: 6pt;
+}

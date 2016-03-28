@@ -1,0 +1,80 @@
+.page_navigation
+{
+	text-align:center;
+	margin:5px;
+}
+body.arabic .page_navigation { direction:rtl;}
+.page_navigation a , .page_navigation .ellipse
+{
+	margin: 3px;
+	text-align: center;
+	background:#FFFFFF;
+	/*background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #adeced), color-stop(1, #3ec9c9) );
+	background: -moz-linear-gradient( center top, #adeced 5%, #3ec9c9 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#adeced', endColorstr='#3ec9c9');
+	background-color: #adeced;
+	-webkit-border-top-left-radius: 42px;
+	-moz-border-radius-topleft: 42px;
+	border-top-left-radius: 42px;
+	-webkit-border-top-right-radius: 42px;
+	-moz-border-radius-topright: 42px;
+	border-top-right-radius: 42px;
+	-webkit-border-bottom-right-radius: 42px;
+	-moz-border-radius-bottomright: 42px;
+	border-bottom-right-radius: 42px;
+	-webkit-border-bottom-left-radius: 42px;
+	-moz-border-radius-bottomleft: 42px;
+	border-bottom-left-radius: 42px;*/
+	text-indent: 0px;
+	display: inline-block;
+	color: #a7a7a7;
+	font-size: 15px;
+	line-height: 11px;
+	text-decoration: none;
+	text-align: center;
+	width: auto;
+	padding: 5px;
+	font-weight:bold;
+}
+.page_navigation .current
+{
+	margin: 3px;
+	text-align: center;
+	background-color:#fff;
+	text-indent: 0px;
+	display: inline-block;
+	color: rgb(76, 70, 70);
+	font-size: 15px;
+	line-height: 11px;
+	text-decoration: none;
+	text-align: center;
+	width: auto;
+	padding: 5px;
+	font-weight:bold;
+
+}
+.page_navigation .active_page
+{
+	color: #666;
+} 
+.page_navigation a:hover 
+{
+	background:#66DFDF;
+	/*background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3ec9c9), color-stop(1, #adeced) );
+	background:-moz-linear-gradient( center top, #3ec9c9 5%, #adeced 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3ec9c9', endColorstr='#adeced');
+	background-color:#3ec9c9;*/
+}
+.page_navigation a:active 
+{
+	position:relative;
+	top:1px;
+}
+.page_navigation a.no_more , .page_navigation a.last_link , .page_navigation a.first_link
+{
+	padding:0;
+}
+.page_navigation a.previous_link ,.page_navigation a.next_link
+{
+	padding:5px;
+}

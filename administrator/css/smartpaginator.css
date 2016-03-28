@@ -1,0 +1,19 @@
+﻿.pagination
+{
+	margin:20px 3% 20px 3%;
+	float:right;
+	list-style:none;
+	padding-bottom:20px;
+}
+.pagination li
+{
+	float:left;
+	margin:0px 3px;
+}
+#goto_form
+{
+	float:left;
+	margin:20px 3% 20px 3%;
+	
+	
+}

@@ -1,0 +1,93 @@
+.icon_homepage_left{
+	position: relative;
+	z-index: 3;
+	top: -250px;
+	height: 0;
+}
+.english .icon_homepage_left{
+	position: relative;
+	z-index: 3;
+	top: -250px;
+	height: 0;
+	display:none;
+}
+.arabic .icon_homepage_right
+{
+	position: relative;
+	z-index: 3;
+	top: -250px;
+	height: 0;
+	display:none;
+	}
+	 .icon_homepage_right
+{
+	position: relative;
+	z-index: 3;
+	top: -250px;
+	height: 0;
+	
+	}
+.product-comment-user-img , .product-comment{
+	float:right;
+	}
+.english .product-comment-user-img ,.english .product-comment{
+	float:left;
+	}	
+.english .ba2yElwasafat{
+	float:left;
+	}
+.ingredients{
+	font-size:15px;
+	width:70%;
+	
+}
+.english .ingredients{
+	font-size:15px;
+	width:70%;
+	text-align:left;	
+}
+.english .ingredientstitle{
+	width: 100%;
+    text-align: left;
+    height:0;
+	}
+.english .ingredients p{
+	float:left;
+	text-align:left;
+			
+}
+.english #recipe-prepare p{
+	float:left;
+	text-align:left;
+	}
+.title-container{
+	width:77%;
+	}
+.mob_home_img{
+	width:100%;
+	height:400px;
+	}
+	
+	
+@media (max-width : 417px){
+	.mob_home_img{
+	width:100%;
+	height:250px;
+	}
+	}	
+@media (min-width : 415px) and (max-width :675px){
+	.mob_home_img{
+	width:100%;
+	height:300px;
+	}
+}
+
+@media (min-width : 320px) and (max-width :675px){
+	
+	.icon_homepage_left {
+position: relative;
+z-index: 3;
+top: -185px;
+height: 0;
+}
+	}

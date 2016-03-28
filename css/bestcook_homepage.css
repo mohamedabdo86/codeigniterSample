@@ -1,0 +1,314 @@
+/* CSS Document */
+
+/*===========================================
+Tree Menu *******************************/
+.inner_tree_menu_wrapper
+{
+	width:100%;
+	height:20px;
+	padding:3px 0px;
+}
+.inner_tree_menu_wrapper div
+{
+	font-size: 17px;
+	margin: 0px 5px;
+	line-height: 18px;
+}
+
+.slide_show_wrapper  .camera_wrap  { height:225px;}
+#innerhome_slideshow
+{
+	width:100%;
+	height:225px;
+	border-top-style:solid;
+	border-top-width:10px;
+	margin-top:7px;
+}
+
+#innerhome_slideshow .slide_show_title_sign
+{
+	width: 274px;
+height: 223px;
+margin-top: -9px;
+padding: 5px;
+}
+#innerhome_slideshow .slide_show_title_sign .inner_margin_wrapper
+{
+	margin:5px;
+	border:dashed 1px #FFF;
+	height: 94%;
+	background:url(../images/bestcook/best_cook_slideshow_drawings.png);
+	
+}
+
+
+#innerhome_slideshow .slide_show_wrapper
+{
+	width:715px;
+	height:225px;
+
+}
+.recent_items_list_wrapper
+{
+	
+	width:100%;
+	height:255px;
+	position:relative;
+}
+.recent_items_list_wrapper .recentitem_prev,.recentitem_next
+{
+	position:absolute;
+	top:85px;
+	cursor:pointer;
+}
+.recent_items_list_wrapper .recentitem_prev{ right:0px; }
+.recent_items_list_wrapper .recentitem_next{ left:0px; }
+.recent_items_list_wrapper .recent_items_list
+{
+	width:935px;
+	margin:0px auto;
+}
+.recent_items_list_wrapper .recent_items_list li
+{
+	width:215px;
+	height:255px;
+	margin:0px 6px;
+	/*float:left;	*/
+}
+.recent_items_list_wrapper .recent_items_list li .image
+{
+	width:213px;
+	height:165px
+}
+.recent_items_list_wrapper .recent_items_list li .image img
+{
+	width:100%;
+	height:100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+	
+}
+.recent_items_list_wrapper .recent_items_list li .share_bar
+{
+	width:100%;
+	height:27px;
+
+}
+.recent_items_list_wrapper .recent_items_list li .title
+{
+	width:100%;
+	height:45px;
+	white-space:normal;
+	line-height: 20px;
+}
+
+.recent_items_list_wrapper .recent_items_list li .title a
+{
+	display:block;
+
+}
+	
+ 
+/************************************************************/
+.full_width_graytitlebackground
+{
+	width:100%;
+	height:48px;
+	background:#b8b8b8;
+}
+.full_width_graytitlebackground .white_background_with_title
+{
+	margin: 0px 20px;
+	background:#FFF;
+}
+
+
+.inner_tips_wrapper
+{
+	width:100%;	
+	height:147px;
+	position:relative;
+}
+.inner_tips_wrapper .open_quote
+{
+	position: absolute;
+	top: 131px;
+	right: 0px;
+	font-family: 'ge_ss_twolight';
+	font-size: 360px;
+	line-height: 14px;
+	z-index:-9;
+}
+.inner_tips_wrapper .close_quote
+{
+	position: absolute;
+	bottom: -68px;
+	left: 0px;
+	font-family: 'ge_ss_twolight';
+	font-size: 360px;
+	line-height: 14px;
+}
+.inner_tips_wrapper #slides
+{
+	width:340px;
+	margin:10px auto;
+	height:100px;
+}
+/*.inner_tips_wrapper #slides .slides_container
+{
+	width: 340px;
+	height: 100px;
+	padding-top: 25px;
+}
+.inner_tips_wrapper #slides .slides_container div 
+{
+	width:340px;
+	height:70px;
+	display:block;
+}*/
+.inner_tips_wrapper #slides .slides_container div  p { width:100%; text-align:center; height:70px; color:#8d8d8d;}
+body.arabic .inner_tips_wrapper #slides .slides_container div  p {white-space: normal !important; font-size:15px;} 
+.inner_tips_wrapper #slides .pagination
+{
+	width:40px;
+	margin:0px auto;
+	text-align:center;
+}
+.inner_tips_wrapper #slides .pagination li
+{
+	float:left; color:#8d8d8d;
+}
+.inner_tips_wrapper #slides .pagination li:last-child:after { content:""; clear:both;}
+
+
+/*===================== */
+.header_graybackground_only
+{
+	width:100%;
+	height:38px;
+	background:#FFF;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+/*=====================*/
+.current_section_background_color
+{
+	width:100%;
+	height:55px;
+}
+.upload_ur_recipe_button
+{
+	width:430px;
+	height:181px;
+	position:relative;
+}
+.upload_ur_recipe_button img
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+		z-index:99;
+		
+
+}
+.upload_ur_recipe_button .title
+{
+	position: absolute;
+	top: 70px;
+	left: 38px;
+	z-index: 99;
+	font-size: 27px;
+	color:#FFF;
+	text-align:center;
+}
+/*=====================*/
+.best_cook_inner_applications_list
+{
+	left: -11px;
+	width:270px;
+}
+.best_cook_inner_applications_list li
+{
+/*	width:90px;
+	height:85px;
+	float:left;
+	margin:0px 3px;
+	background:rgb(255,255,255);
+	background:rgba(255,255,255,0.90);
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;*/
+}
+/*.best_cook_inner_applications_list li:hover { background:#e82327; background:rgba(232,35,39,0.80);  }
+.best_cook_inner_applications_list li:hover .title_wrapper { color:#FFF;  }*/
+.best_cook_inner_applications_list li .image_application
+{
+	line-height: 17px;
+	/*margin-top: -34px;*/
+}
+body.arabic .best_cook_inner_applications_list li .image_application
+{
+	line-height: 17px;
+	margin-top: 5px;
+}
+.best_cook_inner_applications_list li .title_wrapper
+{
+	width: 90px;
+	font-size: 14px;
+	white-space: normal;
+	text-align: center;
+	line-height: 13px;
+	white-space:normal;
+}
+.best_cook_inner_applications_list_prev,.best_cook_inner_applications_list_next
+{
+	position:absolute;
+	left:-14px;
+	top:40px;
+}
+.best_cook_inner_applications_list_next
+{
+	position:absolute;
+	left: 189px;
+}
+
+.friends_recipes
+{
+	width:100%;
+	height:345px;
+}
+.friends_recipes .container
+{
+	padding-top:48px;
+}
+.friends_recipes .container .feature_image
+{
+	width:36%;
+	position:relative;
+	height:290px;
+}
+.friends_recipes .container .friends_recipes_list
+{
+	width:37%;
+	position:relative;
+	height:290px;
+	margin:0 9px;
+}
+.friends_recipes .container .send_recipes
+{
+	width:25%;
+	position:relative;
+	height:290px;
+	background:#FFF;
+}
+/**************Pages for Best Cook******************/
+
+

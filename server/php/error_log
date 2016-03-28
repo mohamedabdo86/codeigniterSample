@@ -1,0 +1,136 @@
+[27-Jan-2014 05:08:39] no decode delegate for this image format `/tmp/magick-HoJV4aWl' @ error/constitute.c/ReadImage/544
+[23-Mar-2014 02:27:51] no decode delegate for this image format `/tmp/magick-sgyjcb5n' @ error/constitute.c/ReadImage/544
+[06-Apr-2014 03:41:05] no decode delegate for this image format `/tmp/magick-NL0foqfb' @ error/constitute.c/ReadImage/544
+[20-May-2014 07:16:59] no decode delegate for this image format `/tmp/magick-yXRYmyLM' @ error/constitute.c/ReadImage/544
+[20-May-2014 07:31:20] no decode delegate for this image format `/tmp/magick-d4QY7J5y' @ error/constitute.c/ReadImage/544
+[20-May-2014 07:34:59] no decode delegate for this image format `/tmp/magick-tAL1vVgl' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 07:49:23] no decode delegate for this image format `/tmp/magick-UzqYH7Tw' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 07:49:23] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-IgpWcjKw' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 08:06:46] no decode delegate for this image format `/tmp/magick-E073b6Yd' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 08:06:46] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-N5UC2rQr' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 08:09:42] no decode delegate for this image format `/tmp/magick-SIkwKGlP' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 08:09:42] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-BksxOI6c' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 08:11:56] no decode delegate for this image format `/tmp/magick-x38MNpWr' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 08:11:56] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-X0lrSK2d' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 08:18:14] no decode delegate for this image format `/tmp/magick-AaEXM6p0' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 08:18:14] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-4MjuzYh6' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:26:10] no decode delegate for this image format `/tmp/magick-rY2Ju5EC' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:26:10] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-kpYzTxAM' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:26:30] no decode delegate for this image format `/tmp/magick-yE08gfZP' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:26:30] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-dQvuVE9N' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:26:56] no decode delegate for this image format `/tmp/magick-nL0yeIJi' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:26:56] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-glKICzHi' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:31:08] no decode delegate for this image format `/tmp/magick-VY5EoRGZ' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:31:08] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-Gg32i36b' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:33:42] no decode delegate for this image format `/tmp/magick-PBclC4M5' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:33:42] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-nwFzMLZy' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Al Shafie Mile...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Al Shafie Mile...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:35:36] no decode delegate for this image format `/tmp/magick-kCdzcC9n' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:35:36] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-kErRydyr' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Logotype-1024-...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Logotype-1024-...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[10-Jun-2014 09:35:56] no decode delegate for this image format `/tmp/magick-IWJuxLzk' @ error/constitute.c/ReadImage/544
+[10-Jun-2014 09:35:56] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `/tmp/magick-PVozFpmd' @ error/constitute.c/ReadImage/544' in /home/devarea/public_html/nestle/server/php/UploadHandler.php:759
+Stack trace:
+#0 /home/devarea/public_html/nestle/server/php/UploadHandler.php(759): Imagick->readimage('/home/devarea/p...')
+#1 /home/devarea/public_html/nestle/server/php/UploadHandler.php(815): UploadHandler->imagick_get_image_object('/home/devarea/p...', false)
+#2 /home/devarea/public_html/nestle/server/php/UploadHandler.php(973): UploadHandler->imagick_create_scaled_image('_Logotype-1024-...', '', Array)
+#3 /home/devarea/public_html/nestle/server/php/UploadHandler.php(998): UploadHandler->create_scaled_image('_Logotype-1024-...', '', Array)
+#4 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1058): UploadHandler->handle_image_file('/home/devarea/p...', Object(stdClass))
+#5 /home/devarea/public_html/nestle/server/php/UploadHandler.php(1281): UploadHandler->handle_file_upload(' in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 759
+[20-Jul-2014 04:00:18] no decode delegate for this image format `/tmp/magick-YeJtUMj3' @ error/constitute.c/ReadImage/544
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] no decode delegate for this image format `/tmp/magick-ATKWta5X' @ error/constitute.c/ReadImage/544
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093
+[20-Jul-2014 04:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devarea/public_html/nestle/server/php/UploadHandler.php:945) in /home/devarea/public_html/nestle/server/php/UploadHandler.php on line 1093

@@ -1,0 +1,88 @@
+/* Essentials */
+
+html, div, map, dt, isindex, form, header, aside, section, section, article, footer {  
+    display: block;  
+} 
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+background:url(../images/black_pattern02.jpg) center center no-repeat #000;
+font-size: 12px;
+color:#1F1F20;	
+}
+
+
+#login_container
+{
+	width:500px;
+	height:auto;
+	min-height:250px;
+	background:rgba(204,204,204,1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-125px;
+	padding:10px;
+	
+}
+#login_container label
+{
+	display:block;
+}
+#login_container p
+{
+	margin:0; padding:0;
+	display:none;
+}
+#login_container h1
+{
+	text-align:center;
+	color:#1F1F20;
+	text-shadow:0px 1px 0px #FFF;
+	
+}
+#login_container h2
+{
+	text-shadow:1px 0px 2px #FFF;
+}
+#login_container input[type=text],#login_container input[type=password]
+{
+	display:block;
+	width:97%;	 
+	padding:5px;
+	margin:5px 0;
+	-webkit-box-shadow: inset 0px 0px 7px 1px #cccccc;
+        
+        box-shadow: inset 0px 0px 7px 1px #cccccc;
+}
+#login_container input[type=reset],#login_container input[type=submit]
+{
+	float:right;
+	padding:5px;
+	margin:3px;
+	background:#FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:none;
+	margin-bottom:20px;
+	
+	
+}
+.show_hide
+{
+	float:right;
+	cursor:pointer;
+}
+.clear
+{
+	clear:both;
+}

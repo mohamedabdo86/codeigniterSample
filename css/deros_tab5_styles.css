@@ -1,0 +1,336 @@
+#main_slide_show
+{
+	width:460px;
+	height:380px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#main_slide_show  img
+{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}
+
+#buttons_wrapper
+{
+	width:480px;
+	height:380px;
+}
+
+#buttons_wrapper #first_row
+{
+	width:100%;
+	height:180px;
+	
+}
+#buttons_wrapper #first_row .button_image
+{
+	width:235px;
+	height:180px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position:relative;	
+	
+}
+#buttons_wrapper #first_row .button_image img
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	z-index:9;	
+}
+#buttons_wrapper #first_row .button_image .title_wrapper
+{
+	width:100%;
+	height:35px;
+	position:absolute;
+	bottom:0px;
+	z-index:99;
+	line-height:35px;	
+}
+#buttons_wrapper #first_row .button_image .title_wrapper h4 { line-height:35px;}
+
+#buttons_wrapper #second_row
+{
+	width:100%;
+	height:190px;
+	background:#FFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#buttons_wrapper #second_row .latest_recipes_wrapper
+{
+	width:100%;
+	height:150px;
+	margin-top:10px;
+	position:relative;	
+}
+#buttons_wrapper #second_row .latest_recipes_wrapper .latest_recipes_wrapper_list
+{
+	margin-left:30px;
+	margin-right:30px;
+}
+#buttons_wrapper #second_row .latest_recipes_wrapper li
+{
+	margin:0 3px;
+}
+#latest_recipes_wrapper_list_prev,#latest_recipes_wrapper_list_next
+{
+	position:absolute;
+	top:55px;
+	cursor:pointer;
+}
+body.english #latest_recipes_wrapper_list_prev { right:10px;}
+body.english #latest_recipes_wrapper_list_next { left:10px;}
+
+body.arabic #latest_recipes_wrapper_list_prev { right:10px;}
+body.arabic #latest_recipes_wrapper_list_next { left:10px;}
+
+#latest_recipes_wrapper_list_prev.disabled , #latest_recipes_wrapper_list_next.disabled
+{
+	visibility:hidden;
+}
+
+.class_recipes
+{
+	height:45px;
+	padding:0 10px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	line-height:45px;
+}
+.class_recipes_list
+{
+}
+.class_recipes_list li 
+{
+	width:410px;
+	height:78px;
+	margin:5px;
+}
+.class_recipes_list li img
+{
+	padding:3px;
+}
+.class_recipes_list li h3
+{
+	line-height:25px;
+}
+.first_row
+{
+	width:500px;
+	height:auto;
+}
+.second_row
+{
+	width:490px;
+	height:auto;
+}
+table { border-collapse: collapse; }
+td
+{ 
+	padding: 1em;
+	border: 1px #e82327 solid;
+	width: 65px;
+	color:#e82327;
+	font-size: 16px;
+	font-weight: bold;
+}
+.title_big 
+{
+	width: 1050px;
+	height: 42px;
+	position: relative;
+	right: 49px;
+}
+.title_big .title_text 
+{
+	line-height: 42px;
+	line-height: 42px;
+	padding: 0 42px;
+}
+.title_big .shadow_left {
+position: absolute;
+bottom: -25px;
+left: 0px;
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 25px 0 0 25px;
+border-color: #ae3434 transparent transparent transparent;
+}
+.title_big .shadow_right {
+position: absolute;
+bottom: -25px;
+right: 0px;
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 25px 25px 0 0;
+border-color: #ae3434 transparent transparent transparent;
+
+}
+.address
+{
+	width:938;
+	height:60px;
+	background-color:#e7e7e7;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.address h1
+{
+	font-size: 23px;
+	color: #575757;
+	padding: 0 15px;
+	line-height: 55px;
+}
+.address span
+{
+	font-size:30px;
+	color:#c62b21;
+}
+.class_form
+{
+	width: 952px;
+	margin-top: 15px;
+}
+.large_text 
+{
+	width: 345px;
+	height: 35px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+	text-indent: 5px;
+}
+.medium_text 
+{
+	width: 260px;
+	height: 35px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+	text-indent: 5px;
+	background-color: #fff;
+}
+.small_text 
+{
+	width: 180px;
+	height: 35px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+	text-indent: 5px;
+}
+#availability_email 
+{
+	position: relative;
+	left: 36px;
+	top: 8px;
+	width: 24px;
+	display: none; 
+}
+
+.styled-select select {
+   background: transparent;
+   width: 240px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+.styled-select {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url('http://cdn.bavotasan.com/wp-content/uploads/2011/05/down_arrow_select.jpg') no-repeat right #ddd;
+   border: 1px solid #ccc;
+}
+
+.advanced_search_dropmenu_wrapper{
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	width: 250px;
+	height: 37px;
+}
+
+.mycorner_button {
+	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f15555), color-stop(1, #d01e1e) );
+	background: -moz-linear-gradient( center top, #f15555 5%, #d01e1e 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15555', endColorstr='#d01e1e');
+	background-color: #f15555;
+	-webkit-border-top-left-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	border-top-right-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-left-radius: 7px;
+	text-indent: 0;
+	border: 1px solid #d9d9d9;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+	text-decoration: none;
+	text-align: center;
+	padding: 2px 13px;
+	cursor: pointer;
+}
+
+.mycorner_button:hover 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d01e1e), color-stop(1, #f15555) );
+	background:-moz-linear-gradient( center top, #d01e1e 5%, #f15555 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d01e1e', endColorstr='#f15555');
+	background-color:#d01e1e;
+}.mycorner_button:active 
+{
+	position:relative;
+	top:1px;
+}
+.selectboxit-list
+{
+	margin-top: 5px;
+	width: 256px;
+}
+.selectboxit-text
+{
+	line-height: 35px !important;
+}
+.green_color 
+{
+	color: #197C21 !important;
+}
+.rounded_border
+{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}

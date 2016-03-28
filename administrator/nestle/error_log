@@ -1,0 +1,24 @@
+[08-Jan-2014 09:43:47] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:43:50] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:44:10] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:44:45] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:45:37] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:46:42] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:47:27] PHP Fatal error:  Call to a member function querySelectSingle() on a non-object in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 32
+[08-Jan-2014 09:48:49] PHP Fatal error:  Cannot access private property Pointssystem::$signin_points in /home/devarea/public_html/nestle/administrator/nestle/pointssystem.php on line 44
+[12-Jan-2014 05:39:25] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133693441 bytes) in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 66
+[12-Jan-2014 08:14:08] PHP Fatal error:  Call to undefined method Trophiessystem::insert() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 157
+[12-Jan-2014 08:15:19] PHP Fatal error:  Call to undefined method Trophiessystem::insert() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 159
+[12-Jan-2014 08:35:47] PHP Fatal error:  Call to undefined method Trophiessystem::insert() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 160
+[12-Jan-2014 08:36:08] PHP Fatal error:  Call to undefined method Trophiessystem::insert() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 160
+[12-Jan-2014 08:36:32] PHP Fatal error:  Call to undefined method Trophiessystem::insert() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 161
+[14-Jan-2014 04:15:04] PHP Warning:  Missing argument 1 for Trophiessystem::__construct(), called in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 5 and defined in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 43
+[14-Jan-2014 04:15:04] PHP Warning:  Missing argument 2 for Trophiessystem::__construct(), called in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 5 and defined in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 43
+[14-Jan-2014 04:15:04] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 50
+[14-Jan-2014 04:15:52] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 50
+[14-Jan-2014 04:17:34] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 50
+[14-Jan-2014 04:18:18] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 50
+[14-Jan-2014 04:19:26] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 53
+[14-Jan-2014 04:20:02] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 53
+[14-Jan-2014 04:20:54] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 53
+[14-Jan-2014 04:21:27] PHP Fatal error:  Call to undefined method Trophiessystem::array_of_trophies() in /home/devarea/public_html/nestle/administrator/nestle/trophiessystem.php on line 53

@@ -1,0 +1,14 @@
+<span id="firstname"><?php echo $firstname; ?></span>
+<span id="lastname"><?php echo $lastname; ?></span>
+<span id="email"><?php echo $email; ?></span>
+<span id="mobile"> <?php echo $mobile; ?></span>
+<span id="phone"> <?php echo $phone; ?></span>
+<span id="city"> <?php echo $city; ?></span>
+<span id="address"> <?php echo $address; ?></span>
+<span id="reason"> <?php echo $reason; ?></span>
+<span id="reason_despr"> <?php echo $reason; ?></span>
+<span id="respondway1"><?php echo $contact_method1; ?></span>
+<span id="respondway2"><?php echo $contact_method2; ?></span>
+<span id="message"><?php echo $message; ?></span>
+<span id="product_name"><?php echo $product_name; ?></span>
+<span id="product_code"><?php echo $product_code; ?></span>

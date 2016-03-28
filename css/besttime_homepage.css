@@ -1,0 +1,89 @@
+#innerhome_slideshow .slide_show_title_sign .inner_margin_wrapper 
+{
+	margin: 5px;
+	border: dashed 1px #FFF;
+	height: 94%;
+	background: url(../images/besttime/besttime_slideshow_drawings.png);
+}
+.inner_tips_wrapper
+{
+	width: 100%;
+	height: 125px;
+	position: relative;
+}
+.inner_tips_wrapper .close_quote 
+{
+	position: absolute;
+	bottom: -80px;
+	left: 0px;
+	font-family: 'ge_ss_twolight';
+	font-size: 250px;
+	line-height: 14px;
+}
+.inner_tips_wrapper .open_quote 
+{
+	position: absolute;
+	top: 85px;
+	right: 0px;
+	font-family: 'ge_ss_twolight';
+	font-size: 250px;
+	line-height: 14px;
+}
+.inner_tips_wrapper #slides 
+{
+	width: 360px;
+	margin: 10px auto;
+	height: 100px;
+}
+.inner_tips_wrapper #slides .slides_container 
+{
+	width: 340px;
+	height: 90px;
+	padding-top:1px;
+}
+.inner_tips_wrapper #slides .slides_container div 
+{
+	width: 340px;
+	height: 70px;
+	display: block;
+	margin-top: 12px;
+}
+.inner_tips_wrapper #slides .slides_container div p 
+{
+	font-size:14px;
+}
+.desc_wrapper
+{
+	position: relative;
+	top: -43px;
+	width: 100%;
+	height: 40px;
+}
+
+body.arabic .desc_wrapper
+{
+	position: relative;
+	top: -50px;
+	width: 100%;
+	height: 40px;
+}
+.best_time_inner_games_list_next 
+{
+	position: absolute;
+	left: inherit;
+	right: 20px;
+	top: 30px;
+}
+.best_time_inner_games_list_prev
+{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2014, 1:26:38 PM
+    Author     : Ahmed Makki
+*/
+.define-colors(@color)
+{
+    & .text-color
+    {
+        color:      @color;
+    }
+    & .background-color
+    {
+        background-color: @color;        
+    }
+    & .border-color
+    {
+        border-color:   @color;
+    }
+    & .border-bottom-color
+    {
+        border-bottom-color: @color;
+    }
+	& .small-triangle
+	{
+		border-color: transparent transparent transparent @color;
+	}
+}
+.best-cook
+{
+   .define-colors(@bestcook-color); 
+}
+.best-mom
+{
+   .define-colors(@bestmom-color); 
+}
+.best-me
+{
+   .define-colors(@bestme-color); 
+}
+.best-time
+{
+   .define-colors(@besttime-color); 
+}
+.nestle-products
+{
+   .define-colors(@nestledgray-color); 
+}
+.white-text-color
+{
+    color:          #FFF;
+}

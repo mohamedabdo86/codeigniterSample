@@ -1,0 +1,666 @@
+/* CSS Document */
+
+/*==================================
+============================list small with title only ======================== */
+.list_small_titleonly
+{
+	margin: 0px 10px;
+	list-style: inside;
+	font-size: 11px;
+	position: relative;
+	top: 68px;
+}
+.list_small_titleonly li {  padding:5px 0px; border-bottom:solid #FFF 1px; color:#FFF;}
+.list_small_titleonly li:last-child { border-bottom:none; }
+
+/*==================================
+============================list small with section title ,image ,article title======================== */
+.list_section_title_image_article
+{
+	margin: 0px 10px;
+	list-style: inside;
+	font-size: 11px;
+	position: relative;
+	top: 68px;
+}
+.list_section_title_image_article li
+{
+	font-size:13px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	margin:5px 0px;
+	padding:10px 0px;
+	
+}
+.list_section_title_image_article li:last-child { border:none;}
+.list_section_title_image_article li .articletitle
+{
+	color:#ccc;
+	width: 145px;
+	font-size: 10px;
+	color:#878787;
+	height:34px;
+}
+.list_section_title_image_article li .readmore
+{
+	font-size:9px;
+	width:50px;
+	line-height:34px;
+
+}
+
+
+/*==================================
+============================list small with image ======================== */
+.list_small_withimage
+{
+	margin: 0px 10px;
+	list-style: inside;
+	font-size: 11px;
+	position: relative;
+	top: 68px;
+	list-style:none;
+	
+}
+.list_small_withimage li {  padding:5px 0px; height:50px;}
+.list_small_withimage li .articletitle { width:215px;}
+
+/*==================================
+============================lists of image desc grids view ======================== */
+.li_third li
+{
+	width:315px;
+}
+.lists_of_image_desc_grids
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lists_of_image_desc_grids li
+{
+	position:relative;
+	margin:8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.lists_of_image_desc_grids li .image
+{
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.lists_of_image_desc_grids li .image img
+{
+	width:100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.lists_of_image_desc_grids li .desc_wrapper
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	min-height:40px;
+	background:#ccc;
+	background:rgba(0,0,0,0.80);
+	z-index:99;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/*================================lists of image desc Recipes view ======================== */
+.lists_of_image_desc
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lists_of_image_desc li
+{
+	 height:255px;
+	 width:220px;
+	 margin:15px;
+}
+.lists_of_image_desc li .image
+{
+	height:166px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px #ddd solid;
+}
+.lists_of_image_desc li .image img
+{
+	width:100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.lists_of_image_desc li .rating_wrapper_container
+{
+	width: 219px;
+	height: 35px;
+}
+.lists_of_image_desc li h3
+{
+	line-height: 16px;
+	font-weight: 600;
+}
+
+/*================================lists of Videos Recipes view ======================== */
+.lists_of_videos
+{
+	margin: 0 24px;
+	padding:0;
+	list-style:none;
+}
+.lists_of_videos li
+{
+	 height:275px;
+	 width:207px;
+	 margin:15px;
+}
+.lists_of_videos li .image
+{
+	height:171px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:2px #5b5b5b solid;
+}
+.lists_of_videos li .image img
+{
+	width: 203px;
+	height: 171px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.lists_of_videos li h3
+{
+	line-height: 16px;
+}
+
+
+/*================================lists of Text ,image vertically ======================== */
+.list_of_title_image_vertical{
+	
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.list_of_title_image_vertical li
+{
+	margin: 10px 0px;
+	width: 95%;
+	padding: 10px;
+	/*background-color: #fff;*/
+}
+.list_of_title_image_vertical li:last-child { border-bottom:none}
+.list_of_title_image_vertical li .image
+{
+	width:105px;
+	height:91px;
+	
+}
+.list_of_title_image_vertical li .image img
+{
+	width:105px;
+	height:91px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #E0E0E0;
+	
+}
+.list_of_title_image_vertical li .title
+{
+	width:290px;
+	height:60px;
+}
+.list_of_title_image_vertical li .title h3
+{
+	width:100%;white-space: normal;
+	line-height: 21px;
+
+}
+
+/*================================lists of image desc Aricles view ======================== */
+.lists_of_image_desc_article
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lists_of_image_desc_article li
+{
+	height: 160px;
+	width: 484px;
+	margin: 3px;
+	padding: 5px;
+	background-color: #fff;
+}
+.lists_of_image_desc_article li .image
+{
+	height:155px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.lists_of_image_desc_article li .image img
+{
+	width:100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+	
+}
+.lists_of_image_desc_article li .social_wrapper_container
+{
+	width: 300px;
+	height: 150px;
+}
+.lists_of_image_desc_article li .social_wrapper_container h3
+{
+	line-height: 16px;
+	font-weight:700;
+}
+.lists_of_image_desc_article li .social_wrapper_container h4
+{
+	padding:10px 0;
+}
+/********************************Inseason Topics Featured***************************************/
+.topics_list_wrapper
+{
+	width:100%;
+	height:245px;
+	position:relative;
+}
+.topics_list_wrapper .recentitem_prev,.topics_list_wrapper .recentitem_next
+{
+	position:absolute;
+	top:106px;
+}
+.topics_list_wrapper .recentitem_prev{ right:0px; }
+.topics_list_wrapper .recentitem_next{ left:0px; }
+.topics_list_wrapper .recent_items_list
+{
+	width:935px;
+	margin:0px auto;
+}
+.topics_list_wrapper .recent_items_list li
+{
+	width:215px;
+	height:255px;
+	margin:0px 6px;
+}
+.topics_list_wrapper .recent_items_list li .image
+{
+	width:100%;
+	height:220px;
+}
+.topics_list_wrapper .recent_items_list li .image img
+{
+	width:100%;
+	height:100%;
+}
+.topics_list_wrapper .recent_items_list li .share_bar
+{
+	width:100%;
+	height:27px;
+
+}
+.topics_list_wrapper .recent_items_list li .title
+{
+	width: 100%;
+	height: 50px;
+	white-space: normal;
+	line-height: 40px;
+	position: relative;
+	top: -57px;
+	background: rgba(255,255,255,0.8);
+}
+
+.topics_list_wrapper .recent_items_list li .title a
+{
+	display:block;
+
+}
+.triangle_topic_featured {
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+	border-bottom-width:50px;
+	border-bottom-style:solid;
+	border-left: 50px solid transparent;	
+	z-index:9999;
+	position:absolute;
+	bottom:0px;
+	left:inherit;
+	right:0px;
+}
+body.arabic .triangle_topic_featured
+{
+	
+	left:0px;
+	right:inherit;
+	border-left:none;
+	border-right: 50px solid transparent;
+	
+}
+.plus_sign_topic_featured
+{
+	line-height:23px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 24px;
+	height: 30px;
+	font-size:24px;
+	z-index:99999;
+}
+body.arabic .plus_sign_topic_featured
+{
+	height: 26px;
+	right:inherit;
+	left:0px;	
+}
+
+
+/********************************Inseason Topics ***************************************/
+
+.lists_of_image_grids
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lists_of_image_grids li
+{
+	position: relative;
+	width: 222px;
+	height: 167px;
+	margin: 13px;
+	border: 1px solid #dfdddd;
+}
+.lists_of_image_grids li .image
+{
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.lists_of_image_grids li .image img
+{
+	width:100%;
+}
+.lists_of_image_grids li .title
+{
+	width: 223px;
+	height: 40px;
+	white-space: normal;
+	line-height: 40px;
+	position: relative;
+	top: 127px;
+	background: rgba(255,255,255,0.8);
+}
+
+.lists_of_image_grids li .title a
+{
+	display:block;
+	font-size: 13px;
+
+}
+.triangle_topic 
+{
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+	border-bottom-width:40px;
+	border-bottom-style:solid;
+	border-left: 40px solid transparent;	
+	z-index:9999;
+	position:absolute;
+	bottom:0px;
+	left:inherit;
+	right:0px;
+}
+body.arabic .triangle_topic
+{
+	
+	left:0px;
+	right:inherit;
+	border-left:none;
+	border-right: 40px solid transparent;
+	
+}
+.plus_sign_topic a
+{
+	font-size: 20px !important;
+}
+.plus_sign_topic
+{
+	line-height:23px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 19px;
+	height: 26px;
+	font-size:24px;
+	z-index:99999;
+	font-size: 20px;
+}
+body.arabic .plus_sign_topic
+{
+	width: 16px;
+	right:inherit;
+	left:0px;	
+}
+/********************************Sub Season Lists ***************************************/
+.lists_image_and_text_overlap
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lists_image_and_text_overlap li
+{
+	width:280px;
+	height:210px;
+	position:relative;
+	margin: 15px 25px;
+}
+.lists_image_and_text_overlap li .image
+{
+	width:100%;
+	height:260px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:9;
+}
+.lists_image_and_text_overlap li .image img
+{
+	width:100%;
+}
+.lists_image_and_text_overlap li .text
+{
+	width:100%;
+	z-index:99;
+	position:absolute;
+	bottom:0px;
+	background:#FFF;
+	background: rgba(255,255,255,0.85);
+	padding: 10px 0px;
+}
+.lists_image_and_text_overlap li .text h2
+{
+	color:#6e6e6e;
+	margin:0px 10px;
+}
+
+/* Lists with tab */
+.feat_lists_with_tab
+{ 
+	width: 245px;
+	padding-right: 250px;
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+.feat_lists_with_tab .border_fix_for_tab
+{
+	border-width:2px;
+	border-style:solid;
+	/*border-right:none;*/
+	position: absolute;
+	width: 170px;
+	height: 191px;
+	top: 5px;
+}
+.feat_lists_with_tab ul.ui-tabs-nav
+{ 
+	position: absolute;
+	top: 7px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 194px;
+	height: 190px;
+	overflow: hidden;
+	z-index: 999;
+	direction: rtl;
+}
+.feat_lists_with_tab ul.ui-tabs-nav li
+{ 
+	padding-right: 25px;
+	font-size: 12px;
+	color: #666;
+}
+.feat_lists_with_tab ul.ui-tabs-nav li img
+{ 
+	float:left; margin:2px 5px; 
+	padding:2px; 
+
+}
+.feat_lists_with_tab ul.ui-tabs-nav li span
+{ 
+	font-size:11px;  
+	line-height:18px; 
+}
+.feat_lists_with_tab li.ui-tabs-nav-item a
+{ 
+	display: block;
+	height: 46px;
+	text-decoration: none;
+	color: #333;
+	line-height: 20px;
+	outline: none;
+	width: 164px;
+	border-bottom-style:dashed;
+	border-bottom-width:2px;
+}
+.feat_lists_with_tab li.ui-tabs-nav-item a h2
+{
+	font-size: 13px;
+	white-space: normal;
+	padding: 7px;
+	text-align: center;
+	line-height: 17px;
+}
+.feat_lists_with_tab li.ui-tabs-nav-item:last-child a
+{
+	border-bottom: none;
+}
+.feat_lists_with_tab li.ui-tabs-nav-item a:hover
+{ 
+	/*background:#f2f2f2; */
+}
+/*.feat_lists_with_tab li.ui-tabs-selected, .feat_lists_with_tab li.ui-tabs-active
+{ 
+	background:url('../images/selected-item-right.png') top right no-repeat;
+
+}
+*/
+.feat_lists_with_tab .ui-tabs-panel .info{ 
+	position:absolute; 
+	bottom:0; left:0; 
+	height:70px; 
+	background: url('../images/transparent-bg.png');
+	width:412px; 
+}
+.feat_lists_with_tab ul.ui-tabs-nav li.ui-tabs-selected a, .feat_lists_with_tab ul.ui-tabs-nav li.ui-tabs-active a
+{ 
+	/*background:#ccc; */
+}
+.feat_lists_with_tab .ui-tabs-panel
+{ 
+	width: 317px;
+	height: 200px;
+	position: relative;
+	left: 176px;
+}
+.feat_lists_with_tab .ui-tabs-panel .panel_wrapper
+{
+	width: 324px;
+	height: 200px;
+}
+.feat_lists_with_tab .ui-tabs-panel .image
+{
+	padding:5px;
+}
+.feat_lists_with_tab .ui-tabs-panel .image img
+{
+	width: 316px;
+	height: 194px;
+}
+.feat_lists_with_tab .ui-tabs-panel .title_wrapper
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.feat_lists_with_tab .ui-tabs-panel .title_wrapper h3
+{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.feat_lists_with_tab .ui-tabs-panel .info a.hideshow{
+	position:absolute; font-size:11px; font-family:Verdana; color:#f0f0f0; right:10px; top:-20px; line-height:20px; margin:0; outline:none; background:#333;
+}
+.feat_lists_with_tab .info h2{ 
+	font-size:1.2em; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0; font-weight:normal;
+	overflow:hidden; 
+}
+.feat_lists_with_tab .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+}
+.feat_lists_with_tab .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+.feat_lists_with_tab .info a:hover{ 
+	text-decoration:underline; 
+}
+.feat_lists_with_tab .ui-tabs-hide{ 
+	display:none; 
+}
+

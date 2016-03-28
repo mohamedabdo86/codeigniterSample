@@ -1,0 +1,1 @@
+<?php echo $name; ?> want to get his prize of <?php echo $award_number; ?> points

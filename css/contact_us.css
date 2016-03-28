@@ -1,0 +1,78 @@
+#contact_us_form_container{background:#FFF;-webkit-box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.45);-moz-box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.45); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.45); padding:1px 0px;}
+.contact_us_link{cursor:pointer;width:100%;}
+.contact_us_link h2{font-weight: bold;font-size: 21px; color: #575757;margin: 7px 25px;}
+.contact_us_link span{color:#2ea4be;font-size:25px;}
+#radio_reason{width: 450px; height: 30px;line-height: 35px;}
+#contact_reason{height:185px; width:97%;margin:auto;}
+body.arabic .reason_next{margin: 0px 35px; padding: 1px 28px;color:#FFF;-webkit-border-radius: 7px;-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.5);box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-border-radius: 7px;border-radius: 7px;background: -moz-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #4075a1), color-stop(100%, #0e487a)); /* safari4+,chrome */
+background: -webkit-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* ie10+ */
+background: linear-gradient(320deg, #0e487a 0%, #4075a1 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#0e4a7c',GradientType=0 ); /* ie6-9 */}
+.reason_next{margin: 3px 7px; padding: 7px 30px;color:#FFF;-webkit-border-radius: 7px;-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.5);box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-border-radius: 7px;border-radius: 7px;background: -moz-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #4075a1), color-stop(100%, #0e487a)); /* safari4+,chrome */
+background: -webkit-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(130deg, #0e487a 0%, #4075a1 100%); /* ie10+ */
+background: linear-gradient(320deg, #0e487a 0%, #4075a1 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#0e4a7c',GradientType=0 ); /* ie6-9 */}
+.yourmsg{width:auto !important;height:auto !important;}
+body.arabic #contact_message_textarea_1{margin: 0px 13px !important;font-size:17px;}
+#contact_message_textarea_1{margin: 0px 13px !important;font-size:22px;}
+#contact_message_textarea_2{margin: 16px 8px 0px 8px !important; font-size:17px;}
+body.arabic #contact_message{height: 245px; width: 98%;margin: auto;}
+#contact_message{height: 225px; width: 98%;margin: auto;}
+body.arabic #personal_info{height: 365px; width: 95%;margin: auto;}
+#personal_info{height: 365px; width: 95%;margin: auto;}
+#contact_method{height: 255px; width: 95%;margin: auto;}
+.email_error_2,.telephone_error_2,.email_error_format,.email_error_format_2{color: #F00}
+.medium_text {width: 260px;height: 35px; border-radius: 10px;}
+.personal_info_input{width: 320px; margin: auto;}
+body.arabic .submit_button{padding: 4px 29px !important; cursor:pointer;}
+.submit_button{padding: 8px 29px !important; cursor:pointer;}
+.firstname_error{display:none;color:#F00;}
+.firstname_error_number{display:none;color:#F00;}
+.lastname_error{display:none;color:#F00;}
+.email_error{display:none;color:#F00;}
+.telephone_error{display:none;color:#F00;}
+.mobile_error{display:none;color:#F00;}
+.radio_dir{direction: rtl;}
+body.arabic .radio_dir{direction: ltr;}
+.drop_down_style{width:360px; height:35px; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px;}
+#upload_image{width: auto;
+height: 35px;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+margin:3px 7px;
+}
+body.arabic .upload_button_wrapper {
+width: 155px;
+text-align: center;
+border-radius: 8px;
+background: #C9C9C9;
+color: #636363;
+font-size: 11px;
+height: 40px;
+}
+.upload_button_wrapper {
+width: 140px;
+text-align: center;
+border-radius: 8px;
+background: #C9C9C9;
+color: #636363;
+}
+body.arabic .fileinput-button{height:60px; cursor:pointer;}
+.fileinput-button{height:36px; cursor:pointer;}
+#hover_code{border:none;}
+.input_radio{width: 450px; height: 70px;}
+.input_radio h3{font-size:12px;}
+.radio_input_text{width: 260px; height: 30px; border-radius: 10px;}
+.contactus_upload_message{text-align:center; color:#009900; margin-top: -6px;}
+body.arabic .contactus_upload_message{text-align:center; color:#009900; margin-top: 0px;}

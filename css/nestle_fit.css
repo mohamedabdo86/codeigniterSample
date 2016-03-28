@@ -1,0 +1,75 @@
+#landing_page_nestle_fit
+{
+	background-image:url("../images/nestle_fit/nestle_fit_landing_background.jpg";);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center top;
+	height:520px;
+	position: relative;
+}
+#landing_page_nestle_fit #sections
+{
+	position: absolute;
+	top: 400px;
+	height: 190px;
+	width:952px;
+	right: 0;
+}
+#calories_calculator:hover, #burn_rate:hover, #notification_messages:hover
+{
+	margin-right: 1px;
+	margin-top: 1px;
+}
+#landing_page_nestle_fit #sections a:first-child
+{
+	margin: 0;
+}
+
+#best_life_nestle
+{
+	position: absolute;
+	left:362px;
+	top:39px;
+}
+
+#best_life_nestle:hover
+{
+	left:361px;
+	top:40px;
+}
+
+#calories_calculator
+{
+	position: absolute;
+	left: 355px;
+	top: -8px;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#burn_rate
+{
+	position: absolute;
+	left: 38px;
+	top: -8px;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#notification_messages
+{
+	position: absolute;
+	left: 708px;
+	top: -8px;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}

@@ -1,0 +1,39 @@
+﻿#slider, #slider2 {
+margin: auto;
+overflow: hidden;
+width: 100%;
+height: 300px;
+background-color: #221f1f
+}
+.slider-wrap {
+height: inherit;
+}
+.box {
+margin: 20px auto;
+width: 500px;
+height: 260px;
+background-color: #e51b3b;
+}
+.slidert nav {
+position: absolute;
+width: 100%;
+margin-top: -70px;
+}
+.slidert nav ul {
+text-align: center;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.slidert nav ul li {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-radius: 10px;
+background: #221f1f;
+margin: 0 2px;
+cursor: pointer;
+}
+.slidert nav ul li.on {
+background-color: white;
+}

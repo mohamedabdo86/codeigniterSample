@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2014, 2:35:17 PM
+    Author     : Ahmed Makki
+*/
+
+.border-radius-all(@size : @border-radius)
+{
+    -webkit-border-radius: @size;
+    -moz-border-radius: @size;
+    border-radius: @size;
+}
+.border-radius-bottom(@size : @border-radius)
+{
+    -webkit-border-bottom-right-radius: @size;
+    -webkit-border-bottom-left-radius: @size;
+    -moz-border-radius-bottomright: @size;
+    -moz-border-radius-bottomleft: @size;
+    border-bottom-right-radius: @size;
+    border-bottom-left-radius: @size;
+}
+
+.half-circle-arabic(@size : 110px)
+{
+    -moz-border-radius: @size 0 0 @size;
+    border-radius: @size 0 0 @size;
+    -webkit-border-radius:@size 0 0 @size;
+}
+
+.draw-border-thin()
+{
+    border-style:       solid;
+    border-width:       1px;
+}
+
+.border-radius-all
+{
+	.border-radius-all();
+}z

@@ -1,0 +1,252 @@
+/* CSS Document */
+.text_class
+{
+	width:228px;
+	height:25px;
+	padding:5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:solid 1px #ccc;
+	
+}
+.textarea_class
+{
+	width:245px;
+	height:100px;
+	padding:5px;
+	font-family:inherit;
+	border:none;
+	background:rgba(255,255,255,0.60);
+}
+.button_class
+{
+	padding: 5px 15px;
+	border:none;
+	font-weight:bold;
+	font-size:12px;
+	cursor:pointer;
+	/*background:#FFF*/
+}
+
+
+
+/* Advanced Search of Best Cook */
+.advanced_search_dropmenu_wrapper
+{
+	width:226px;
+	height:30px;
+	border-color:#8d442e;
+
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/advanced_search_drop_menu.png);*/
+	background:white;
+}
+
+body.english .advanced_search_dropmenu_wrapper 
+{
+	box-shadow:-4px 4px 0px #85442F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+body.arabic .advanced_search_dropmenu_wrapper 
+{
+	box-shadow:4px 4px 0px #85442F;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-top: 1px #F1F1F1 solid;
+}
+
+
+.best_cook_search_styled_select_box {
+  	border:none;
+    background-color: transparent;
+   /*width: 320px;*/
+   padding: 5px;
+   font-size: 13px;
+   line-height: 1;
+   border: 0;
+   outline:none;
+   border-radius: 0;
+   height: 30px;
+   color:#727272;
+   font-family:inherit;
+  /* appearance:none;
+	-moz-appearance:none;  
+	-webkit-appearance:none; */ 
+   }
+body.arabic .best_cook_search_styled_select_box 
+{
+	direction:rtl;
+}
+
+
+
+
+/* Upload Recipe Table */
+.special_start
+{
+	width:36px;
+	height:58px;
+	background:url(../images/bestcook/best_cook_end_special.png);
+	
+}
+body.arabic .special_start
+{
+	background:url(../images/bestcook/best_cook_start_special.png);
+}
+.special_textwrapping
+{
+	width:4px;
+	height:58px;
+	background:url(../images/bestcook/best_cook_text_wrapper_special.png);
+	padding:0px 10px;
+}
+.special_end
+{
+	width:36px;
+	height:58px;
+	background:url(../images/bestcook/best_cook_start_special.png);
+}
+body.arabic .special_end
+{
+	background:url(../images/bestcook/best_cook_end_special.png);
+}
+.member_name_wrapper
+{
+	width:100%;
+	height:65px;
+	position:relative;	
+}
+.member_name_wrapper .member_name
+{
+	width: auto;
+	height: 58px;
+	line-height:45px;
+	font-size:12px;
+	color:#FFF;
+	
+}
+#upload_recipe_table
+{
+	width:100%;
+}
+#upload_recipe_table tr{ height:45px;}
+#upload_recipe_table th
+{
+	width:25%;
+	color:#e82327;
+	vertical-align:top;
+	line-height: 45px;
+}
+#upload_recipe_table td
+{
+	width:75%;
+}
+#upload_recipe_table input[type=text],#upload_recipe_table select,#upload_recipe_table textarea,
+#ask_an_expert_table_form input[type=text],#ask_an_expert_table_form select,#ask_an_expert_table_form textarea
+{
+	width:100%;
+	
+}
+#upload_recipe_table input[type=text],#upload_recipe_table select,#upload_recipe_table textarea
+{
+	border:none;
+	-moz-box-shadow: 2px 3px 2px #DDC29E;
+	-webkit-box-shadow: 2px 3px 2px #DDC29E;
+	box-shadow: 2px 3px 2px #DDC29E;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:35px;
+	text-indent:10px;
+}
+#upload_recipe_table textarea{ height:inherit;}
+#upload_recipe_table span.error { color:red; font-size:11px;}
+
+/* Upload Recipe image preview */
+.upload_recipe_image_preview_wrapper
+{
+	width:100%;		
+}
+.submit_button_wrapper
+{
+	width:194px;
+	height:53px;
+	background:url(../images/bestcook/upload_recipe_submit_button.png);
+	padding:0;
+	margin:0px auto;
+}
+.submit_button_wrapper input[type=submit]
+{
+	position: relative;
+	top: 14px;
+	border: none;
+	background: none;
+	color:#FFF;
+	font-size: 18px;
+	margin-top: -6px;
+	cursor:pointer;
+}
+.field_error
+{
+	color:#e82327;
+	display:none;
+}
+/* Upload Recipe global preview */
+.browse_button_design_wrapper
+{
+	margin-left:0px;
+	width:346px;
+	height:68px;
+	position:relative;
+}
+
+/* Upload Recipe global preview */
+body.arabic .browse_button_design_wrapper
+{
+	margin-right:0px;
+	width:346px;
+	height:68px;
+	position:relative;
+}
+.browse_button_design_wrapper .icon
+{
+	position: absolute;
+	width: 16px;
+	height: 24px;
+	top: 22px;
+	right: 70px;
+}
+.browse_button_design_wrapper .button_title
+{
+	width: 45px;
+	height: 30px;
+	position: absolute;
+	top: 24px;
+	right: 23px;
+	font-size: 12px;
+	color:#FFF;
+}
+.browse_button_design_wrapper .button_desc
+{
+ 	width: 230px;
+	height: 10px;
+	position: absolute;
+	top: 17px;
+	left: 12px;
+	font-size: 13px;
+	color:#e82327;
+	font-weight:bold;
+}
+/*Arabic Fix */
+body.arabic .browse_button_design_wrapper .icon{right: inherit; left:70px;}
+body.arabic .browse_button_design_wrapper .button_title{ right:inherit; left:17px;font-size: 15px; top:18px; }
+body.arabic .browse_button_design_wrapper .button_desc{ left:inherit; right:12px; top:9px; }
+body.arabic #status_text { direction:rtl;}
+.checkbox_wrapper { display:none;}

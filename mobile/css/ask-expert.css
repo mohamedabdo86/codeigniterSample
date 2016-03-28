@@ -1,0 +1,115 @@
+.ask_the_expert_all_questions {
+width: 100%;
+padding: 0;
+margin: 0;
+list-style: none;
+white-space: normal;
+}
+.ask_the_expert_all_questions li {
+width: 100%;
+margin: 0;
+}
+.ask_the_expert_all_questions li .question 
+{
+	background: #FFF;
+	padding: 7px 0;
+	cursor: pointer;
+	line-height: 22px;
+}
+body.arabic .question 
+{
+	font-size: 12px;
+	color: #666;
+	white-space: normal;
+	line-height: 13px;
+}
+ul li .answer 
+{
+	margin: 0 20px;
+	background: #dfdede;
+	display: none;
+	padding: 2px 15px;
+}
+.small-triangle
+{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 5px 0 5px 10px;
+	position: relative;
+	top: 5px;
+}
+
+.form-wrapper
+{
+	padding: 5px;
+}
+.form-container
+{
+	height:160px;
+	border: dotted 2px #FFF;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box; 
+}
+.ballon_error
+{
+	color: #FFF !important;
+	display: none;
+	font-size: 14px;
+	line-height: 25px;
+}
+.ask-an-expert-table-form
+{
+	width:100%;
+	margin:10px;
+}
+.ask-an-expert-table-form td 
+{
+width: 50%;
+padding-bottom: 5px;
+}
+body.arabic .ask-an-expert-table-form th 
+{
+width: 20%;
+}
+.ask-an-expert-table-form input[type=text] 
+{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-indent: 10px;
+	border: none;
+	height: 35px;
+	width: 85%;
+}
+.ask-an-expert-table-form textarea 
+{
+	height: 80px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	width: 85%;
+}
+
+.ask_an_expert_submit_button
+{
+	background-color: rgb(252, 212, 62);
+	border: medium none;
+	padding: 3px 15px 10px;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.ask-an-expert-table-form th 
+{
+	width: 28%;
+	line-height: 36px;
+	color: #FFF;
+	vertical-align: top;
+} 	
+

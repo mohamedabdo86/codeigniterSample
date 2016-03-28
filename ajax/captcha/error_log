@@ -1,0 +1,24 @@
+[18-May-2014 03:02:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 03:02:06] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 03:02:06] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 03:02:45] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 03:02:45] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 03:02:45] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 03:03:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 03:03:00] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 03:03:00] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 03:59:43] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 03:59:43] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 03:59:43] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 04:00:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 04:00:01] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 04:00:01] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 04:05:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 04:05:18] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 04:05:18] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 04:05:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 04:05:48] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 04:05:48] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-May-2014 04:09:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in /home/devarea/public_html/nestle/ajax/captcha/captcha.php on line 2
+[18-May-2014 04:09:12] PHP Warning:  Unknown: open(/tmp/sess_eb17b5f64642aed249d0ffcdf3338cc9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-May-2014 04:09:12] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
